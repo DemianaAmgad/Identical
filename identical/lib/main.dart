@@ -13,16 +13,13 @@ void main() {
     ),
   ));
 }
-
 class MyApp extends StatefulWidget {
   @override
   State<MyApp> createState() => _MyAppState();
 }
-
 class _MyAppState extends State<MyApp> {
   var leftImgNo = 1;
   var rightImgNo = 2;
-
   @override
   Widget build(BuildContext context) {
     return Column(
